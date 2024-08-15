@@ -1,0 +1,48 @@
+{
+  "name": "boiler-plate-1",
+  "version": "0.0.1",
+  "description": "sample boiler plate in expressjs",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "jest"
+  },
+  "keywords": [
+    "expressjs",
+    "boilerplate",
+    "startkit",
+    "mongoose"
+  ],
+  "author": "Jai Rana",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.9.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3",
+    "supertest": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkrana008/expressjs-simple-boiler-plate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkrana008/expressjs-simple-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/jkrana008/expressjs-simple-boiler-plate#readme",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
